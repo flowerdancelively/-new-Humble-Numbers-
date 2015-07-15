@@ -30,11 +30,11 @@ int main()
 	for (j = 1; j <i; j++)
 	{
 		cout << "The " << n[j];
-		if (n[j] % 10 == 1 && n[j] != 11)
+		if (n[j] % 10 == 1 && n[j]%100 != 11)
 			cout << "st  humble number is ";
-		else if (n[j] % 10 == 2 && n[j] != 12)
+		else if (n[j] % 10 == 2 && n[j]%100 != 12)
 			cout << "nd  humble number is ";
-		else if (n[j] % 10 == 3 && n[j] != 13)
+		else if (n[j] % 10 == 3 && n[j]%100 != 13)
 			cout << "rd  humble number is ";
 		else
 			cout << "th  humble number is ";
